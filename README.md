@@ -1,4 +1,4 @@
-# RSA-Based-Encryption-and-Decryption-Across-Multimodal-Data
+# RSA-Based-Encryption-and-Decryption-Across-Multimodal-Data using Matlab
 
 MATLAB implementation of RSA cryptography across multiple platforms: numbers, text, images, audio, and video. This project explores asymmetric encryption, key generation ($N=p \times q$), and data integrity. Includes advanced simulations on the impact of noise on ciphertext, featuring CRC error detection and Hamming Code error correction.
 
@@ -39,7 +39,14 @@ We analyzed how noise affects the decryption process and used Hamming codes to r
 - `RSA_Multimedia.m`: Audio and Video binary processing.
 - `Noise_Analysis.m`: Simulations of signal interference and CRC checks.
 
+* 01_Technical Report
+* 02_Source Code
+* 03_Output Data
+
+
 ## 📝 Discussion & Limitations
 - **Constraint:** Message size $M$ must be less than modulus $N$.
 - **Security:** Small prime numbers are used for demonstration; 2048-bit primes are recommended for production.
 - **Optimization:** For video data, we utilized `fread` for binary efficiency rather than frame-by-frame processing.
+
+**Author:** Arun Chakkyadath Chandran 
