@@ -1,4 +1,4 @@
-# RSA-Based-Encryption-and-Decryption-Across-Multimodal-Data using Matlab
+# RSA-Based-Encryption-and-Decryption-Across-Multimodal-Data using MATLAB
 
 MATLAB implementation of RSA cryptography across multiple platforms: numbers, text, images, audio, and video. This project explores asymmetric encryption, key generation ($N=p \times q$), and data integrity. Includes advanced simulations on the impact of noise on ciphertext, featuring CRC error detection and Hamming Code error correction.
 
